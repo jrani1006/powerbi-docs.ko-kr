@@ -82,8 +82,8 @@ Bing에 전송되는 데이터에 대한 자세한 내용 및 지오코딩 성�
    c.  **모두** 옆에 확인 표시를 표시하고 **AK**옆에 있는 확인 표시를 제거합니다.
 
    ![모두 및 AK를 선택하지 않은 상태 드롭다운](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. **SalesFact** \> **감정**을 선택하여 **색 채도** 웰에 추가합니다. **색 채도** 웰의 필드는 지도 음영을 제어합니다.  
-   ![색 채도 필드 웰의 감정](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
+7. **SalesFact** \> **Sentiment**을 선택하여 **색 채도** 영역에 추가합니다. **색 채도** 영역의 필드는 지도 음영을 제어합니다.  
+   ![색 채도 필드 영역의 Sentiment](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
 8. 등치 지역도는 녹색과 빨간색으로 채워지며, 빨간색은 낮은 인지 수를 나타내고 녹색은 더 높고 더 긍정적인 인지를 나타냅니다.  여기에 제가 강조 표시한 와이오밍(WY) 주는 인지가 74로 매우 양호합니다.  
    ![상태 및 감정을 보여주는 검정 대화 상자](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
 9. [보고서를 저장합니다](../service-report-save.md).
@@ -94,7 +94,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
     ![서식 지정 창](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
 
 2. **데이터 색**을 선택하여 색 옵션을 표시합니다.
-3. 최소 및 최대 색을 노란색과 파란색으로 설정합니다. 데이터를 기반으로 하여 최솟값 및 최댓값을 추가합니다. 원하는 모양을 얻을 때까지 이 컨트롤을 다양하게 조정합니다. 
+3. 최소 및 최대 색을 노란색과 파란색으로 설정합니다. 데이터를 기반으로 하여 최솟값 및 최대값을 추가합니다. 원하는 모양을 얻을 때까지 이 컨트롤을 다양하게 조정합니다. 
 
     ![비분기 색](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
 
@@ -107,7 +107,7 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
 2. Ctrl+C를 사용하여 등치 지역도를 복사합니다.
 
-3. 보고서 캔버스 아래쪽에서 **감정** 탭을 선택하여 감정 보고서 페이지를 엽니다.
+3. 보고서 캔버스 아래쪽에서 **Sentiment** 탭을 선택하여 Sentiment 보고서 페이지를 엽니다.
 
     ![감정 탭이 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
@@ -115,9 +115,9 @@ Power BI를 사용하면 등치 지역도의 모양을 다양한 방식으로 �
 
    ![등치 지역도가 감성 페이지에 추가됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 강조 표시합니다. 예를 들어 **Texas**를 선택하면 감정이 74이고 Texas가 Central District \#23에 있음이 표시됩니다.   
+5. 등치 지역도에서 시/도를 선택합니다.  이는 페이지의 다른 시각화 요소를 강조 표시합니다. 예를 들어 **Texas**를 선택하면 Sentiment가 74이고 Texas가 Central District \#23에 있음이 표시됩니다.   
    ![텍사스 선택됨](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
-2. VanArsdel - Sentiment by Month 꺾은선형 차트에서 데이터 요소를 선택합니다. 이는 등치 지역도를 필터링하여 경쟁 대상이 아닌 VanArsdel에 대한 감정 데이터를 표시합니다.  
+2. VanArsdel - Sentiment by Month 꺾은선형 차트에서 데이터 요소를 선택합니다. 이는 등치 지역도를 필터링하여 경쟁 대상이 아닌 VanArsdel에 대한 Sentiment 데이터를 표시합니다.  
    ![새 음영](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
 
 ## <a name="considerations-and-troubleshooting"></a>고려 사항 및 문제 해결
