@@ -52,7 +52,7 @@ ms.locfileid: "56426588"
    
    * 시각화를 교차 필터링해야 하는 경우 **필터** 아이콘 ![필터 아이콘](media/service-reports-visual-interactions/pbi-filter-icon-outlined.png)을 선택합니다.
    * 시각화를 교차 강조 표시해야 하는 경우 **강조 표시** 아이콘 ![강조 표시 아이콘](media/service-reports-visual-interactions/pbi-highlight-icon-outlined.png)을 선택합니다.
-   * 영향을 미치지 않아야 할 경우 **영향을 주지 않음** 아이콘 ![영향을 주지 않음 아이콘](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)을 선택합니다.
+   * 영향을 미치지 않아야 할 경우 **** 아이콘 ![영향을 주지 않음 아이콘](media/service-reports-visual-interactions/pbi-noimpact-icon-outlined.png)을 선택합니다.
 
 4. 드릴링 컨트롤을 켜려면 **기타 시각적 개체 드릴 필터링**을 선택합니다.  이제 시각화에서 드릴다운(및 드릴업)하면 보고서 페이지의 다른 시각화가 현재 드릴링 선택을 반영하도록 변경됩니다. 
 
